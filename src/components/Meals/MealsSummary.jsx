@@ -1,8 +1,8 @@
-import "./Summary.css";
+import "./MealsSummary.css";
 
-const Summary = () => {
+const MealsSummary = () => {
   return (
-    <div className="summary">
+    <li className="summary">
       <h1>Delicious Food, Delivered To You</h1>
       <span className="text1">
         Choose your favourite meal from our broad selection of available meals
@@ -12,8 +12,8 @@ const Summary = () => {
         All our meals are cooked with high-quality ingredients, just in time and
         of course by experienced chefs
       </span>
-    </div>
+    </li>
   );
 };
 
-export default Summary;
+export default MealsSummary;

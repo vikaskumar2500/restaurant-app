@@ -1,0 +1,17 @@
+.meals {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  width: 60vmax;
+  margin: 2rem auto ;
+  margin-top: 24rem;
+  background-color: rgb(235, 229, 229);
+  border-radius: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  
+}

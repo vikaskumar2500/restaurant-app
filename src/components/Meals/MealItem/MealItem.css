@@ -1,0 +1,26 @@
+.meal-item {
+  position: relative;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+  margin-left: 1rem;
+  width: 94%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1.5px solid #b4a9a9;
+  gap: 0.3rem;
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: brown;
+}

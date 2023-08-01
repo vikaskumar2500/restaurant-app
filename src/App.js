@@ -1,13 +1,17 @@
-import React from 'react';
-import './App.css';
-import Header from './components/Header/Header';
-import Summary from './components/Summary/Summary';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header/Header";
+import MealsSummary from "./components/Meals/MealsSummary";
+import Meals from "./components/Meals/Meals";
 
-const App = ()=> {
-  return <React.Fragment>
-    <Header/>
-    <Summary/>
-  </React.Fragment>
-}
+const App = () => {
+  return (
+    <React.Fragment>
+      <Header />
+      <MealsSummary />
+      <Meals />
+    </React.Fragment>
+  );
+};
 
 export default App;
