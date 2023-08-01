@@ -2,7 +2,7 @@ import "./MealItem.css";
 import MealItemForm from "./MealItemForm";
 
 const MealItem = (props) => {
-  console.log(props.meal.id);
+
   return (
     <li key={props.meal.id} className="meal-item">
       <div className="about">

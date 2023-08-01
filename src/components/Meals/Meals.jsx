@@ -29,7 +29,7 @@ const Meals = () => {
   return (
     <ul className="meals">
       {meals.map((meal) => (
-        <MealItem meal={meal} />
+        <MealItem key={meal.id} meal={meal} />
       ))}
     </ul>
   );
