@@ -2,10 +2,8 @@
   position: relative;
   list-style: none;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  text-align: center;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid black;
   margin-left: 1rem;
   width: 94%;
@@ -24,3 +22,13 @@
   font-weight: 700;
   color: brown;
 }
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+
