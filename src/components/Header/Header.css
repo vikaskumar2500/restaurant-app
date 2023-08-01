@@ -7,7 +7,8 @@
   align-content: space-around;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 .meal-image {
@@ -18,8 +19,9 @@
 }
 
 .meal-image img {
+  background-repeat: no-repeat;
   width: 110%;
   height: 100%;
   object-fit: cover;
-  transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  transform: rotateZ(0deg) translateY(-13rem) translateX(0rem);
 }
