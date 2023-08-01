@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import MealsSummary from "./components/Meals/MealsSummary";
 import Meals from "./components/Meals/Meals";
+import CartItem from "./components/Cart/CartItem";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <MealsSummary />
       <Meals />
+      <CartItem/>
     </React.Fragment>
   );
 };
