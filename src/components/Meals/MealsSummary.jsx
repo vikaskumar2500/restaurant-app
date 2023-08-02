@@ -2,7 +2,7 @@ import "./MealsSummary.css";
 
 const MealsSummary = () => {
   return (
-    <li className="summary">
+    <div className="summary">
       <h1>Delicious Food, Delivered To You</h1>
       <span className="text1">
         Choose your favourite meal from our broad selection of available meals
@@ -12,7 +12,7 @@ const MealsSummary = () => {
         All our meals are cooked with high-quality ingredients, just in time and
         of course by experienced chefs
       </span>
-    </li>
+    </div>
   );
 };
 

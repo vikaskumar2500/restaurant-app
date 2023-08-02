@@ -1,0 +1,47 @@
+.cart-items {
+  width: 100%;
+  overflow: scroll;
+  max-height: 20rem;
+}
+.cart-items::-webkit-scrollbar {
+  overflow: hidden;
+  width: 0;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.total-price > span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+button {
+  border: none;
+  padding: 0.4rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 600;
+  border: 1px solid rgb(202, 190, 190);
+}
+
+.order {
+  background-color: brown;
+  color: white;
+}
+
+.close {
+  color: brown;
+}
