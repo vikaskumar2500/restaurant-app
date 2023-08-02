@@ -5,17 +5,17 @@ import MyContext from "../../../store/MyContext";
 
 const MealItem = (props) => {
   // console.log({...props.meal});
-  const {meal} = props;
+  const { meal } = props;
   const price = meal.price.toFixed(2);
 
   const myCtx = useContext(MyContext);
 
   const addMealItemHandler = (amount) => {
     myCtx.addItem({
-      id:meal.id,
-      name:meal.name,
-      desc:meal.desc,
-      price:price,
+      id: meal.id,
+      name: meal.name,
+      desc: meal.desc,
+      price: price,
       amount: amount,
     });
   };
