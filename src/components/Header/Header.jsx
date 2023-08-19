@@ -6,12 +6,12 @@ import mealImage from "../../assests/meals.jpg";
 const Header = () => {
   return (
     <Fragment>
-      <div className="header">
-        <h1>ReactMeals</h1>
+      <nav className="header">
+        <h1>Nirvana food</h1>
         <div>
           <Cart />
         </div>
-      </div>
+      </nav>
       <div className="meal-image">
         <img src={mealImage} alt="not found" />
       </div>

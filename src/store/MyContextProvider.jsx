@@ -12,7 +12,6 @@ const cartReducer = (state, action) => {
     const cartItemIndex = state.items.findIndex(
       (item) => item.id === action.item.id
     );
-    console.log(cartItemIndex);
     if (cartItemIndex !== -1) {
       state.items[cartItemIndex].amount += action.item.amount;
       return {
@@ -30,7 +29,7 @@ const cartReducer = (state, action) => {
       (item) => item.id === action.id
     );
     // console.log(cartItemIndex);
-    
+
     if (state.items[cartItemIndex].amount === 1) {
       return {
         items: state.items.filter((item) => item.id !== action.id),

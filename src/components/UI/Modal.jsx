@@ -9,14 +9,12 @@ const Backdrop = (props) => {
 };
 
 const ModalOverlay = (props) => {
-  console.log('ModalOverlay');
   return <div className="modal-overlay">{props.children}</div>;
 };
 
 const Modal = (props) => {
   const myCtx = useContext(MyContext);
 
-  console.log(myCtx.showCart);
   return (
     <React.Fragment>
       {ReactDOM.createPortal(

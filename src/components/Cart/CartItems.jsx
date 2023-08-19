@@ -32,9 +32,11 @@ const CartItems = () => {
         <button type="button" className="close" onClick={closeButtonHandler}>
           Close
         </button>
-        <button type="button" className="order">
-          Order
-        </button>
+        {myCtx.items.length !== 0 && (
+          <button type="button" className="order">
+            Order
+          </button>
+        )}
       </div>
     </Modal>
   );
